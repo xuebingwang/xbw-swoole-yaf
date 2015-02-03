@@ -17,7 +17,8 @@ cd xbw-swoole-yaf
 
 php server/server.php
 
-接口调用地址：http://yourip:port/user/login
+
+接口调用地址：http://yourip:port/app/public/login
 
 接口传送数据json格式：{"username":"testxbw","password":"123456"}
 
