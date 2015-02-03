@@ -17,11 +17,11 @@ cd xbw-swoole-yaf
 
 php server/server.php
 
-
 接口调用地址：http://yourip:port/app/public/login
 
 接口传送数据json格式：{"username":"testxbw","password":"123456"}
 
+`根目录附带的apitest.php是一个接口调式工具，随便放至apache或nginx的访问目录，直接访问即可`
 
 ##**swoole版本**
 swoole-1.7.8+版本
