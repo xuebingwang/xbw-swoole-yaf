@@ -1,6 +1,6 @@
 # xbw-swoole-yaf
 参照https://github.com/LinkedDestiny/swoole-yaf
-进行的改良版swoole-yaf结合
+结合swoole-yaf写的接口服务
 
 ##**描述**
 底层使用Swoole内置的swoole_http_server提供服务
@@ -15,7 +15,8 @@ xuebing
 cd xbw-swoole-yaf
 php server/server.php
 
-打开浏览器，输入http://localhost:9501
+接口调用地址：http://yourip:port/user/login
+接口传送数据json格式：{"username":"testxbw","password":"123456"}
 
 
 ##**swoole版本**
