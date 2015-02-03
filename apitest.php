@@ -165,7 +165,7 @@ if ($_POST) {
                 }
                 var self = $(this);
                 self.text('请稍后...').prop('disabled',true);
-                $.post('api.php',{url:url,data:data}).done(function(resp){
+                $.post('apitest.php',{url:url,data:data}).done(function(resp){
 
                     $("#resp-data").val(resp);
                 }).always(function (){
