@@ -12,10 +12,13 @@ xuebing
 
 ##**使用说明**
 打开终端
+
 cd xbw-swoole-yaf
+
 php server/server.php
 
 接口调用地址：http://yourip:port/user/login
+
 接口传送数据json格式：{"username":"testxbw","password":"123456"}
 
 
