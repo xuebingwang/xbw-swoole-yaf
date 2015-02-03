@@ -29,17 +29,17 @@ class PublicController extends ServiceApi
         
         
         if($this->request_data['username'] == 'testxbw' AND $this->request_data['password'] == '123456'){
+        
+            $this->sendSuccess('登录成功！');
+            
             $task_data = array(
                     'index',
                     'index',
                     'testAsync',
                     array('username'=>$this->request_data['username'])
             );
-        
             //发送异步任务
             HttpServer::$http->task(serialize($task_data));
-            
-            $this->sendSuccess('登录成功！');
         }else{
             $this->sendError('用户名密码不正确！');
         }

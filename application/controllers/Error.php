@@ -3,7 +3,7 @@
    * @name ErrorController
    * @desc 错误控制器, 在发生未捕获的异常时刻被调用
    * @see http://www.php.net/manual/en/yaf-dispatcher.catchexception.php
-   * @author yantze
+   * @author xuebing<406964108@qq.com>
    */
    class ErrorController extends Yaf\Controller_Abstract {
       //从2.1开始, errorAction支持直接通过参数获取异常
@@ -28,8 +28,6 @@
       }
 
       private function _pageNotFound(){
-//          $this->getResponse()->setHeader('HTTP/1.0 404 Not Found');
-// var_dump($this -> getRequest() -> getServer( 'SERVER_PROTOCOL' ))
          $response = $this -> getResponse();
 //          $response -> setHeader( 'Content-Type', 'application/json; charset=utf-8' );
          $response -> setHeader( $this -> getRequest() -> getServer( 'SERVER_PROTOCOL' ), '404 Not Found' );

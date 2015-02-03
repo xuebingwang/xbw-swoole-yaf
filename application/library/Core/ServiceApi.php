@@ -1,9 +1,8 @@
 <?php
 /**
- * Yaf.app Framework
+ * xbw-swoole-yaf
  *
- * @author xudianyang<120343758@qq.com>
- * @copyright Copyright (c) 2014 (http://www.phpboy.net)
+ * @author xuebing<406964108@qq.com>
  */
 
 namespace Core;
