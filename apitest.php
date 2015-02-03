@@ -65,8 +65,6 @@ function curlRequest($url, $data = '', $method = 'POST', $cookieFile = '', $head
 if ($_POST) {
     $content = curlRequest ( $_POST ['url'], $_POST ['data'] );
     echo $content;
-//     $encode = mb_detect_encoding($content);
-//     var_dump($encode);
     die ();
 }
 ?>
