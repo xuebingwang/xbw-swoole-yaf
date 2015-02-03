@@ -1,6 +1,6 @@
 # xbw-swoole-yaf
 参照https://github.com/LinkedDestiny/swoole-yaf
-结合swoole+yaf+json写的接口服务
+结合swoole+yaf基于http+json的API服务
 
 ##**描述**
 底层使用Swoole内置的swoole_http_server提供服务
